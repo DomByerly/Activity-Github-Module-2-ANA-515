@@ -1,0 +1,11 @@
+library(nycflights13)
+flights
+View(flights)
+library(dplyr)
+glimpse(flights)
+airlines
+library(knitr)
+kable(airlines)
+airlines$name
+glimpse(airports)
+?flights
